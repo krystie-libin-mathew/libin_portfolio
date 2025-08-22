@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll for single-page anchors */
+html { scroll-behavior: smooth; }
+
+/***** Nice focus ring *****/
+:root { --ring: 0 0% 100%; }
+* { outline-offset: 2px; }
+
+/***** Prose tweaks *****/
+.prose p { @apply text-slate-700 dark:text-slate-300; }
